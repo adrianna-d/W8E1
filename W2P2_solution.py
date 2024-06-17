@@ -60,5 +60,9 @@ df['full_date_str'] = df['year'].astype(str) + '-' + df['month'].astype(str)
 # Convert the concatenated string column to datetime format
 df['cohort'] = pd.to_datetime(df['full_date_str'], format='%Y-%m')
 
+print(df.head(5))
+
+print('Thank you world, bye!')
+
 
 
