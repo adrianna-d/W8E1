@@ -3,6 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
+#addding ramdom thing gor git to train changes 
+
 # data loading
 df = pd.read_csv(r"C:\Users\adria\Documents\GitHub\W8E1\extract - cash request - data analyst.csv")
 #df.info()
